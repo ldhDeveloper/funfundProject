@@ -36,4 +36,9 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "make.do")
+	public String make(){
+		return "makeproject/choiceitem";
+	}
+	
 }
